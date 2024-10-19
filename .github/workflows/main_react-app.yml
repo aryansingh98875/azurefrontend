@@ -54,4 +54,4 @@ jobs:
           app-name: "speechfrontend"
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6AA6DB315832444C9C0A01E8FAD54316 }}
-          package: dist
+          package: .
